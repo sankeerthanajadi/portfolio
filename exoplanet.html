@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exoplanet Detection Using Machine Learning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #08437d;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #555;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .reference {
+            font-size: 0.9em;
+            color: #777;
+        }
+        .highlight {
+            color: #ff6600;
+        }
+        #space{
+            font-style: italic;
+            text-align: center;
+        }
+        #pic1 img{   
+            height: 250px;
+            width: 400px;
+             position:relative;
+             margin-left: 200px;  
+        }
+        #pic2 img{   
+            height: 250px;
+            width: 500px;
+             position:relative;
+             margin-left: 180px;  
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Exoplanet Detection Using Machine Learning</h1>
+</header>
+
+<main>
+    <p id="space">Space is euphorically beautiful. It is captivated by glorious beauty of mysterious reasons.</p>
+
+    <p>Let us explore this infinitely never-ending tale considering a small topic - EXOPLANETS.</p>
+
+    <p>The planets outside our solar system are known as exoplanets i.e.; all the planets that revolve around any other star but sun. 
+        In the 18th century, the concept of exoplanets emerged, initially met with scepticism due to the prevailing belief that the discovery 
+        of planets beyond our solar system was far-fetched and impractical. The first confirmed exoplanet discovery was made in 1992 by Arecibo
+         observatory, where they discovered the planets Poltergeist and Phobetor orbiting a pulsar called PSR B1257+12. Since then, many space 
+         missions were launched by various organisations to find more and study more. As of 1 March 2024, a total of 5,640 confirmed exoplanets 
+         are listed in the Extrasolar Planets Encyclopedia.</p>
+
+    <div id="pic1"><img src="first exo.jpg" alt=""></div>
+
+    <h2>The Transit Method</h2>
+
+    <p>By definition, a candidate is called a planet if it revolves around a star. Imagine if we placed a satellite that has kept static and 
+        observes a particular star. It continuously observes the brightness of the star. When a planet passes in front of the star (from our 
+        perspective); i.e.; between the star and satellite, there will be a dip in the star’s brightness for the satellite. The presence of such
+         dips in the brightness vs time graph states an exoplanet. This is known as the transit method. The act of moving of a planet w.r.t its 
+         star helps us to understand its presence and dynamics. Although the mass of the planet is very small compared to its star, the 
+         brightness change can be negligible. But this method is highly practiced/ used by many researchers and was proven very effective.</p>
+         <div id="pic2"><img src="transit method.webp" alt=""></div>
+    <h2>Using Machine Learning for Detection</h2>
+
+    <p>Although the graph states the presence of a candidate, we need more advanced study to confirm if the candidate is a planet or any other. 
+        Machine learning has revolutionized the technology, it pushed the boundaries to know the unknown by illuminating the pathway with data.</p>
+
+    <p>The primary requirement of this task is to collect the data from the satellites whose focus is exoplanet discovery. Kepler, TESS, CoRoT 
+        are the most famous missions, all launched by NASA, used by the researchers. The data from these satellites is open source. The data consists of 
+        frequency and time. The data collected is raw and might contain space junk (unwanted noises). To denoise this data, we can prefer several
+         ML methods. But here we go with the most important and famous one- Fast Fourier Transform (FFT). FFT transforms data to the frequency 
+         domain, where noise frequencies are identified. Applying filters, like low-pass, preserves signal while attenuating noise. Inverse FFT 
+         converts the filtered data back to the time domain, enhancing clarity.
+    The balancing of data is very crucial for training any model. Once the denoise data is available, divide it into 80% training set and 20% 
+    test set. When we train a model, it most likely learns from majority set and casually avoiding the minority set. The proper use of metrics, 
+    not only accuracy, but precision, specificity, recall/sensitivity are important. The two methods used to overcome this process are under 
+    sampling or oversampling and SMOTE method.
+    We can plot graphs of our balanced and denoised data to observe the dips in the brightness and by dodging all the false-positive cases, 
+    we can conclude that a new planet is found.
+    Further more information like the time-period and mass of the planet can also be determined using some physics concepts and our graphical 
+    data.</p>
+
+    <h2>Neural Networks</h2>
+
+    <p>Neural networks serve as the backbone of modern machine learning, mimicking the complex structure and functionality of the human 
+        brain to process and interpret data. Neural networks learn through a process called training. During training, the network is fed 
+        data and the weights are adjusted based on the difference between the network's output and the desired output. Imagine a neural 
+        network as a complex web, like a spider's web with lots of connections. The things it sees (photos) or hears (speeches) are like 
+        flies caught in the web. Just like we learn from experience, the network gets better at recognizing patterns the more it sees or 
+        hears stuff. Think of the connections as pathways. The more a certain pathway is used, the stronger it gets, kind of like a dirt 
+        path that becomes wider and easier to walk on the more people use it. In a neural network, these stronger connections mean the network 
+        is learning to recognize specific patterns. By adjusting the strength of these connections, the network becomes a powerful 
+        pattern-recognizing machine.</p>
+
+    <h2>Conventional Neural Networks</h2>
+
+    <p>Convolutional Neural Networks (CNNs), are like super-analysing detectives equipped with superhuman tools. Imagine sifting through years 
+        of starlight data, endlessly searching for the faintest wobble or flicker that might hint at a hidden world. CNNs excel at this 
+        meticulous task. They act like tireless assistants, meticulously scanning massive datasets for these tiny clues. By zooming in on 
+        intricate patterns of brightness changes, they can detect the subtle dips that could be caused by a planet blocking the light of its 
+        distant star. This ability to unearth subtle patterns from a sea of data is what makes CNNs invaluable tools in the hunt for exoplanets.</p>
+        <hr>
+    <p id="space">Cosmology and machine learning, is the ultimate space duo! The mysterious universe must better watch out as we solve the uncanny faster 
+        than a shooting star on rocket fuel.</p>
+</main>
+
+</body>
+</html>

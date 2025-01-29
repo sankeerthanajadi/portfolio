@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4d10ae90.css",
+    "main.js": "/portfolio/static/js/main.abc1acdb.js",
+    "static/js/453.0d5313ea.chunk.js": "/portfolio/static/js/453.0d5313ea.chunk.js",
+    "static/media/sun from space.jpg": "/portfolio/static/media/sun from space.8418ab78c7982bfd6175.jpg",
+    "static/media/art4.jpg": "/portfolio/static/media/art4.59969799210d635fa1f9.jpg",
+    "static/media/mine.jpg": "/portfolio/static/media/mine.4ac16d26925f6ebc1742.jpg",
+    "static/media/graphs.jpg": "/portfolio/static/media/graphs.78737f8ed02c771be348.jpg",
+    "static/media/art1.jpg": "/portfolio/static/media/art1.d4a8ee3b34051ab969cf.jpg",
+    "static/media/art5.jpg": "/portfolio/static/media/art5.16e05b959cd27f96653a.jpg",
+    "static/media/art2.jpg": "/portfolio/static/media/art2.c9d5d31821ca6dccdd27.jpg",
+    "static/media/art3.jpg": "/portfolio/static/media/art3.a4ea31f9c617d1b56a04.jpg",
+    "static/media/Picture.jpg": "/portfolio/static/media/Picture.a8cc382802603948a17b.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.4d10ae90.css.map": "/portfolio/static/css/main.4d10ae90.css.map",
+    "main.abc1acdb.js.map": "/portfolio/static/js/main.abc1acdb.js.map",
+    "453.0d5313ea.chunk.js.map": "/portfolio/static/js/453.0d5313ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d10ae90.css",
+    "static/js/main.abc1acdb.js"
+  ]
+}
