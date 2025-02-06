@@ -17,7 +17,8 @@ function Resume() {
       height: "100vh", 
     }}>
       <iframe
-        src="./Resume_Sankeerthana.pdf"
+        // src="/Resume_Sankeerthana.pdf"
+        src={`${process.env.PUBLIC_URL}/Resume_Sankeerthana.pdf`}
         title="Resume"
         width="100%"
         height="100%"
