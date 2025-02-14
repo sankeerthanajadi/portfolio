@@ -2,11 +2,13 @@ import React from 'react';
 import Exoplanets from './Picture.jpg'
 import Graph from './graphs.jpg'
 import Sun from './sun from space.jpg'
+import Europa from './europaMoon.jpg'
 
 const images = [
   { src: Sun , desc: 'Secrets of sun: Have ever wondered what is the true colour of sun! Is it Orange, Yellow or Indigo, Lets see those true colours',link: `${process.env.PUBLIC_URL}/sun.html` },
   { src: Exoplanets, desc: 'Exoplanet detection using Machine Learning: Out on planets hunt with ML is pretty interesting', link: `${process.env.PUBLIC_URL}/exoplanet.html` },
   { src: Graph, desc: 'Four colour theorem: Can we colour any map in just 4 colours, Lets find out with one of the most important theorem of histroy that created Graph Theory', link: `${process.env.PUBLIC_URL}/four_colour.html`  },
+  {src: Europa, desc: 'Europa: The moon of Jupiter with many wonders', link: `${process.env.PUBLIC_URL}/europa.html`}, 
 ];
 
 export default function BlogMain() {
