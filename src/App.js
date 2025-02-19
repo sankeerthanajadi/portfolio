@@ -33,7 +33,7 @@ function App() {
       <Nav />   
       <div className="content">
       <Routes>
-      <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/photo" element={<Home />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/blogs/blogMain" element={<BlogMain />} />

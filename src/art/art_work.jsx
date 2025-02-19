@@ -19,12 +19,12 @@ const App = () => {
     { src: A3, width: "450px", height: "400px" },
     { src: A4, width: "250px", height: "400px" },
     { src: A5, width: "400px", height: "350px" }, 
-    { src: A7, width: "430px", height: "600px" },
     { src: A2, width: "250px", height: "300px" },
     { src: A6, width: "280px", height: "400px" },
     { src: A8, width: "270px", height: "450px" },
     // { src: A9, width: "250px", height: "400px" },
-    { src: A10, width: "250px", height: "400px" },
+    // { src: A10, width: "250px", height: "600px" },
+    { src: A7, width: "430px", height: "600px" },
     
   ];
 
