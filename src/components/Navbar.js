@@ -37,8 +37,8 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" to="/resume">
-                Resume
+              <Link className="nav-link active" to="/projects/projectDetails">
+                Projects
               </Link>
             </li>
             <li className="nav-item">

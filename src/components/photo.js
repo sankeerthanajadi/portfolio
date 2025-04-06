@@ -1,5 +1,5 @@
 import React from 'react';
-import Me from './mine.jpg';  
+import Me from './mine1.png';  
 
 export default function Photo() {
   
@@ -32,7 +32,16 @@ export default function Photo() {
       <div style={textStyle}>
         <h1>Welcome to My Page</h1>
         <p>I'm Sankeerthana, I am a Computer Science undergraduate in my 3rd year at GNITS, Hyderabad. 
-            I have a keen interest in research and cosmology, with a passion for exploring the mysteries of the universe</p>
+            I have a keen interest in research and development.</p>
+        <a
+          className="btn btn-secondary btn-lg"
+          href={`${process.env.PUBLIC_URL}/Resume_Sankeerthana.pdf`}
+          target="_blank"
+          rel="noopener noreferrer"
+          role="button"
+        >
+          My Resume
+        </a>
       </div>
     </div>
   );
