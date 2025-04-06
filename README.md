@@ -8,7 +8,7 @@ I am Sankeerthana, based in Hyderabad. This portfolio is a reflection of my jour
 
 ## Technologies Used
 
-- **ReactJS**: A JavaScript library for building user interfaces.
+- **HTML, CSS and Javascript**
 - **Bootstrap**: A front-end framework for developing responsive and mobile-first websites.
 - **React Router**: A library for routing in React applications, allowing for dynamic navigation.
 
@@ -26,4 +26,17 @@ To run this project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/sankeerthanajadi/portfolio.git
+
+**OVERVIEW**
+
+![image](https://github.com/user-attachments/assets/980bf6e9-007b-45ed-867a-15b348a377fd)
+![image](https://github.com/user-attachments/assets/45520adb-12c9-4212-8fd6-a21b8906afe3)
+![image](https://github.com/user-attachments/assets/e6dd0722-e0c6-4708-b8b4-85d0d0351dcb)
+![image](https://github.com/user-attachments/assets/a4416ca8-aa8a-40fd-a45f-81449e8d8d12)
+![image](https://github.com/user-attachments/assets/fc4cd6f5-35fd-4bd4-be95-5b5fd625aeeb)
+
+
+
+
+
 
